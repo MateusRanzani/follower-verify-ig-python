@@ -32,5 +32,7 @@ class IGBot:
         user_password.send_keys(Keys.ENTER)
         time.sleep(6)
 
+        #2FA
+
 task = IGBot()
 task.loggin()
